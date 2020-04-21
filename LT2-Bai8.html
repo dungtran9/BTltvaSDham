@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function inputArray(marks) {
+        let N = +prompt("nhap vao so phan tu trong mang")
+        for (let i = 0; i < N; i++) {
+            marks[i] = +prompt("nhap phan tu chi so " + i)
+        }
+    }
+    function displayArray(marks) {
+        document.write("<br>Mang vua nhap la: ");
+        for(let i=0;i<marks.length;i++){
+            document.write(marks[i]+"  ");
+    }
+        marks.reverse();
+        document.write("<br>Mang dao nguoc la: ");
+        for(let i=0;i<marks.length;i++) {
+            document.write(marks[i] + "  ");
+        }}
+        let arr =new Array();
+        inputArray(arr);
+        displayArray(arr);
+</script>
+
 </body>
 </html>

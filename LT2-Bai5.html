@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function minValue(a,b,c) {
+        let min = a;
+        if (b<a){
+            if(b<c){
+                min=b;
+                console.log( min);
+            } else {
+                min=c;
+                console.log( min);
+            }
+        }else{
+            if(a<c){
+                min=a;
+                console.log( min);
+            } else {
+                min=c;
+                console.log( min);
+            }
+        }
+        alert("so nho nhat trong 3 so la " + min);
+    }
+    let so1 = +prompt("nhap 3 so khac nhau");
+    let so2 = +prompt();
+    let so3 = +prompt();
+    minValue(so1,so2,so3)
+</script>
 </body>
 </html>

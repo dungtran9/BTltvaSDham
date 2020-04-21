@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    const PI=3.14;
+    function cirCuit(number) {
+         cir=(2*PI*number).toFixed(2);
+         alert("chu vi hinh tron la "+cir)
+    }
+    function area(number) {
+        S=(PI*number*number).toFixed(2);
+        alert("dien tich hinh tron la "+S)
+    }
+    let N=+prompt("nhap ban kinh hinh tron");
+    cirCuit(N);
+    area(N);
+</script>
 </body>
 </html>

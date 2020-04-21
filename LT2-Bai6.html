@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function ktra(number) {
+        if (number>0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    function kqua(number) {
+        if (ktra(number)==true){
+            alert("true")
+        }else{
+            alert("false")
+        }
+    }
+    let N=+prompt("nhap 1 so bat ky")
+    ktra(N);
+    kqua(N)
+</script>
+
 </body>
 </html>

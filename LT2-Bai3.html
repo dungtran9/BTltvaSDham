@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function giaiThua(number) {
+        let GT =1
+        for (let i = 1; i <= number; i++) {
+            GT *= i;
+        }
+        alert("Ket qua la " + GT)
+    }
+
+    let N = +prompt("nhap so can tinh giai thua");
+    giaiThua(N)
+</script>
+
 </body>
 </html>
