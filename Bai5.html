@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let ngoiSao=["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
+    let chomSao=["Ursa Minor","Tarurus","Cygnus","Lyra","Aquila","Ursa Major","Leo"];
+    let N=prompt("nhập tên ngôi sao ");
+    function display(name) {
+        for (let i=0;i<ngoiSao.length;i++) {
+            if (N == ngoiSao[i]) {
+                alert("ngoi sao vua nhap thuoc chom sao" + chomSao[i]);
+                return ;
+            }
+        }
+        alert("Khong tim thay")
+    }
+    display(N);
+
+</script>
+
+</body>
+</html>
